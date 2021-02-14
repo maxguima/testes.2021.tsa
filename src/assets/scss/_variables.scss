@@ -1,0 +1,37 @@
+:root {
+    --height_header:  0px;
+    --height_title:   0px;
+    --height_footer:  0px;
+}
+
+@media (max-width: 600px) {
+    :root {
+        --height_header:   0px;
+        --height_title:   50px;
+        --height_footer:  40px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+    :root {
+        --height_title:   40px;
+        --height_header:  80px;
+        --height_footer:  50px;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1264px) {
+    :root {
+        --height_header: 100px;
+        --height_title:   40px;
+        --height_footer:  50px;
+    }
+}
+
+@media (min-width: 1265px) and (max-width: 1904px) {
+    :root {
+        --height_header:  40px;
+        --height_title:   80px;
+        --height_footer:  50px;
+    }
+}

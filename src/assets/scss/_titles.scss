@@ -1,0 +1,15 @@
+@import "./colors";
+@import "./variables";
+
+@mixin title_default () {
+    width: 100%;
+    margin: 0;
+    margin-top:var(--height_header);
+    height: var(--height_title);
+    background-color: $color_title;
+    color:$color_label1;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding-left:10px ;
+}

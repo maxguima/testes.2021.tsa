@@ -1,0 +1,13 @@
+@import "./colors";
+@import "./variables";
+
+@mixin header_default () {
+    width: 100%;
+    height: var(--height_header);
+    background-color: $color_header;
+    color: $color_label2;
+    position: fixed;
+    display: flex;    
+    align-items: center;
+    padding:0px 10px 0px 10px;
+}

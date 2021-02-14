@@ -1,0 +1,6 @@
+@import '@/assets/scss/_titles.scss';
+
+header {
+    @include title_default
+}
+

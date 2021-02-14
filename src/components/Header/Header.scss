@@ -1,0 +1,11 @@
+@import '@/assets/scss/_headers.scss';
+
+nav {
+    @include header_default
+}
+
+@media (max-width: 600px) {
+    nav{
+        display:none
+    }
+  }

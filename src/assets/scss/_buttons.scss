@@ -1,0 +1,11 @@
+@import './colors';
+
+@mixin button {
+    background-color: $color_buttom;
+    color: $color_label2;
+    border-radius: 5px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
